@@ -1,0 +1,17 @@
+# Local app + training (Windows or Linux). Install torch with CUDA first, e.g.
+#   pip install torch --index-url https://download.pytorch.org/whl/cu126
+# (cu126 builds still support older GPUs such as the GTX 10xx series.)
+numpy
+pandas
+xarray
+netCDF4
+scipy
+matplotlib
+geopandas
+shapely
+rasterio
+plotly
+dash>=4          # the screenshot script drives Dash 4 dropdowns
+dash-bootstrap-components
+waitress
+websocket-client   # only for take_screenshots_noaa.py
